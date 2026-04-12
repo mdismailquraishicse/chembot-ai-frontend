@@ -1,0 +1,81 @@
+/* Page background */
+.quiz-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+/* Card */
+.quiz-card {
+    width: 450px;
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Buttons */
+.primary-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background: #5a67d8;
+}
+
+/* Question */
+.question-box h3 {
+    margin-top: 20px;
+}
+
+/* Options */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.option:hover {
+    border-color: #667eea;
+    background: #f4f6ff;
+}
+
+.option input {
+    display: none;
+}
+
+.option.selected {
+    border-color: #667eea;
+    background: #eef1ff;
+}
+
+/* Result */
+.result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}

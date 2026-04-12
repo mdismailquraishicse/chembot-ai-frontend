@@ -1,0 +1,96 @@
+/* Page layout */
+.home-page {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #f4f4f4;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h2 {
+    margin: 0;
+}
+
+.logout-btn {
+    background: #ff4d4d;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background: #e60000;
+}
+
+/* Main content */
+.main-content {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Card style */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Upload */
+.card input[type="file"] {
+    margin-top: 10px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #667eea;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #5a67d8;
+}
+
+/* Ask section */
+.ask-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.ask-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+.ask-box input:focus {
+    border-color: #667eea;
+}
+
+/* Answer */
+.answer-card p {
+    white-space: pre-wrap;
+    color: #333;
+}
