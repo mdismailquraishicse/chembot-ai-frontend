@@ -54,7 +54,7 @@ export const askQuestion = async (query) => {
         {
             headers:{"Content-Type": "application/json",
                 Authorization: `Bearer ${token}`},
-        timeout: 60000
+        timeout: 0
     }
     )
 
